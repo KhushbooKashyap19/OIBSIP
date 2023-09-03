@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.welcome{
+    background-image: url(landing\ page\ bg2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1270px;
+color: white;
+
+}
+.welcome_1
+{
+    margin-left: 70px;
+    display: inline;
+    margin-top: 30px;
+    height: 200px;
+    width: 600px;
+    float: left;
+}
+.form{
+    height: 400px;
+    width: 250px;
+    color: white;
+    float: right;
+    border-radius: 20px;
+    margin-right: 100px;
+    align-items: center;
+    background-color: orangered;
+    text-align: center;
+    margin-top: 45px;
+}
+.input{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+.btn{
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    background-color: brown;
+        -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+    
+}
+.menu{
+    height: 500px;
+    width: 500px;
+    background-image: url(dishes\ menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 400px;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 25px 25px 25px grey;
+}
+.menu:hover{
+    -ms-transform: scale(1.1); 
+-webkit-transform: scale(1.1); 
+transform: scale(1.1);
+}
+.offer{
+    height: 300px;
+    background-color: brown;
+    color: white;
+}
+.dish{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-left: 95px;
+    
+}
+.dish:hover{
+    
+        -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+    }

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio Website - Made By Khushboo Kashyap</title>
+</head> 
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+<style>
+  *
+{
+  padding:0%;
+  margin:0%;
+  box-sizing: border-box;
+}
+  body{
+      background-image: url(portfolio\ background3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .menubar{
+  background: #00aced;
+  text-align: right;
+}
+.menubar ul{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+.menubar ul li{
+  width: 85px;
+  font-size: 15px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.menubar ul li:hover{
+  border-radius: 10px;
+  background-color: red;
+}
+.intro{
+    color: white;
+    margin-top: 105px;
+    margin-left: 80px;
+    display: inline;
+    height: 500px;
+    width: 330px;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.intro:hover{
+    color: blueviolet;
+}
+.btn{
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.my_pic{
+    display: inline;
+    float: right;
+   box-sizing: border-box;
+   width: 400px;
+   height: 500px;
+   background-image: url(my_pic1.gif);
+   border: 1px solid black; 
+   background-color: white;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 25px 25px 25px grey;
+   display: inline;
+   margin-right: 80px;
+   margin-top: 80px;
+}
+.my_pic:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.button:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.info{
+  background-color: rgba(0, 0, 0);
+  color: white;
+  height: 300px;
+  }
+  .text{
+      margin-top: 20px;
+      width:90%;
+      height: 300px;
+      margin-left: 60px;
+      display: inline;
+      float: right;
+  }
+.pic{
+    display: inline;
+    margin-right: 40px;
+    margin-top: 20px;
+    height: 260px;
+    width: 270px;
+    margin-top: 10px;
+    float: left;
+}
+#about{
+  background-color: rgba(0, 0, 0,0.4);
+  padding: 0.5%;
+    margin-top: 50px;
+height: 300px;
+width: 1170px;
+border: 7px solid white;
+border-radius: 21px;
+float: left;
+margin-left: 50px;
+display: inline-flex;
+color: white;
+line-height: 1.8;
+align-items: center;
+}
+#skills{
+  background-color: rgba(0, 0, 0,0.4);
+  padding: 0.5%;
+    margin-top: 50px;
+height: 420px;
+width: 1170px;
+border: 7px solid white;
+border-radius: 21px;
+float: left;
+margin-left: 50px;
+display: inline-flex;
+color: white;
+line-height: 1.8;
+
+}
+#contact
+  {
+  background-color: rgba(0, 0, 0,0.4);
+  padding: 0.5%;
+    margin-top: 50px;
+height: 320px;
+width: 1170px;
+border: 7px solid white;
+border-radius: 21px;
+float: left;
+margin-left: 50px;
+display: inline;
+color: white;
+line-height: 1.8;
+
+}
+#about:hover{
+    -ms-transform: scale(1.01); 
+    -webkit-transform: scale(1.01); 
+    transform: scale(1.01);
+    background-color: white;
+    color: rgb(0,200,200);
+}
+#skills:hover{
+    -ms-transform: scale(1.01); 
+    -webkit-transform: scale(1.01); 
+    transform: scale(1.01);
+    background-color: white;
+    color: rgb(0,200,200);
+}
+#contact:hover{
+    -ms-transform: scale(1.01); 
+    -webkit-transform: scale(1.01); 
+    transform: scale(1.01);
+    background-color: white;
+    color: rgb(0,200,200);
+}
+</style>
+<body>
+  <div class="menubar">
+    <header style="font-size: 25px; color: white; float: left; margin-top: 20px; font-family: cursive;">Khushboo Kashyap</header>
+    <ul>
+        <li><a href="#about" style="color: white; text-decoration: none;"><b>About</b></a></li>
+        <li><a href="#skills" style="color:white; text-decoration: none;"><b>Skills</b></a></li>
+        <li><a href="#" style="color:white; text-decoration: none;"><b>Projects</b></a></li>
+        <li><a href="#" style="color:white; text-decoration: none;"><b>Experience</b></a></li>
+        <li><a href="#contact" style="color:white; text-decoration: none;"><b>Contact</b></a></li>
+    </ul></div>
+
+    <div class="intro">
+      <div class="profession">
+          <h3 style="color: red;">Web Developer</h3><br>
+          <h1>Hello , I'm</h1>
+          <br><h1>Khushboo</h1><br><br>
+          <button class="btn" onclick="location.href='my resume3.pdf'"><b><i>Download Resume</i></b></button>
+          
+      </div>
+ </div>
+
+ <div class="my_pic"></div>
+  <br>
+
+
+  <div id="about">
+    <div class="text">
+      <div class="pic"><img src="name1.jpg" height="250px" width="250px"></div>
+      <h1><u>About Me</u></h1>
+    <p><b>Hello, my name is Khushboo Kashyap . I am a B.Tech 3rd year student with Computer Science and Engineering branch at Deen Dayal Upadhayay Univrsity ,Gorakhpur . I have basic knowledge and experience in web development using HTML, CSS, Javascript . Now coming to programming languages ,so I have experience in working with Java, Python and C. My hobbies is to explore new thing around internet which could help me in building a strong carrier and listening music. I want to become a web developer .</b></p>
+    </div>
+</div><br><br>
+
+
+<div id="skills">
+  <div class="text">
+    <div class="pic" style="margin-left: 10px;"><img src="skills1.avif" height="320px" width="250px" ></div>
+    <h1><u>My Skills</u></h1>
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+  </div></div><br><br>
+  <script>
+    var xValues = ["HTML", "CSS", "JavaScript", "JAVA", "Python",""];
+    var yValues = [55, 50, 45, 50, 42, 40];
+    var barColors = ["red", "green","blue","orange","yellow"];
+    
+    new Chart("myChart", {
+      type: "bar",
+      data: {
+        labels: xValues,
+        datasets: [{
+          backgroundColor: barColors,
+          data: yValues
+        }]
+      },
+      options: {
+        legend: {display: false},
+        title: {
+          display: true,
+          text: "MY SKILLS IN HTML CSS JS JAVA PYTHON"
+        }
+      }
+    });
+    </script>
+<div id="contact">
+  <div class="text">
+    <div class="pic"><img src="contact1.jpg" height="260px" width="260px" style="margin-left: 0%;"></div><br>
+  <h1 style="margin-left: 20px;"><u>Contact Me</u></h1><br>
+  <h3 style="margin-left: 20px;">Email - khushbook1903@gamil.com</h3><br>
+  <h3 style="margin-left: 20px;">My LinkedIn profile I'D - <a href="https://www.linkedin.com/in/khushboo-kashyap-715a91252">LinkedIn</a></h3>
+  </div>
+</div>
+  
+</body>
+</html>
